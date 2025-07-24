@@ -34,7 +34,7 @@ These settings are based on the collective experience of this community and best
 
 | Option            | Recommended Value | Notes                                                                 |
 |-------------------|-------------------|----------------------------------------------------------------------|
-| **Hop Limit**     | `5`               | Avoid increasing beyond `6`. Keeps routing sane and efficient.       |
+| **Hop Limit**     | `3`               | Avoid increasing beyond `6`. Keeps routing sane and efficient.       |
 | **Ignore MQTT**   | `True`            | Useful for routers in isolated areas or avoiding MQTT echo.          |
 | **OK to MQTT**    | `True`            | Enable if you want your node to appear on tools like [MeshMap.net](https://meshmap.net) |
 
